@@ -1,5 +1,4 @@
 import React from 'react-native';
-import PropTypes from 'prop-types';
 import themeInit from './ThemeTest';
 import { StyleProvider } from '../../';
 
@@ -17,5 +16,5 @@ export default function StyleProviderTestAppComponent({ children }) {
 }
 
 StyleProviderTestAppComponent.propTypes = {
-  children: PropTypes.object,
+  children: React.PropTypes.object,
 };
